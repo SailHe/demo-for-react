@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import DefModal from './modules/DefModal'
+import DefModalEs6 from './modules/DefModalEs6'
+import DefModalEs5 from './modules/DefModalEs5'
 import TicTacToe from './modules/TicTacToe';
 
 class App extends Component {
@@ -22,8 +23,11 @@ class App extends Component {
             Learn React
           </a>
         </header>
-        <DefModal />
+
         <TicTacToe />
+        <DefModalEs5 />
+        <DefModalEs6 />
+
       </div>
     );
   }
