@@ -20,17 +20,20 @@ ReactDOM.render(
 /**
  * Descriptions: 创建组件<p>
  *
+ * @see https://stackoverflow.com/questions/43607279/reactclassinterface-you-are-attempting-to-define-constructor-on-your-componen
+ * 在ES5语法中: const Comments = React.createClass 不需要定义构造函数。createClass为你定义
  * @see https://reactjs.org/blog/2017/04/07/react-v15.5.0.html
+ * 在ES6语法中: class Comments extends React.Component 在这里您必须定义自己的构造函数。
  * @author SailHe
  * @date 2018/11/28 9:34
  */
 const DefModal = createReactClass({
-    mixins: [1],
+    /* mixins: [1],
     constructor() {
         this.setState({
             value: null,
         });
-    },
+    }, */
 
     /**
      * Descriptions: 状态初始化<p>
