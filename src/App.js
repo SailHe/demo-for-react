@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import DefModal from './DefModal'
+import Tictactoe from './Game'
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
           </a>
         </header>
         <DefModal />
+        <Tictactoe />
       </div>
     );
   }
