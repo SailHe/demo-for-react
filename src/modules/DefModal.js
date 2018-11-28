@@ -160,4 +160,4 @@ class DefModal extends React.Component {
     }
 }
 
-export default {DefModal};
+export default DefModal;
