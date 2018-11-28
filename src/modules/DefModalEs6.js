@@ -19,7 +19,7 @@ class DefModalEs6 extends React.Component {
         this.show = this.show.bind(this)
     }
 
-    show() {
+    show = ()=> {
         this.setState({
             visible: true,
         })
@@ -44,7 +44,7 @@ class DefModalEs6 extends React.Component {
     render() {
         return (
             <div>
-                <Button onClick={this.show}>click me</Button>
+                <Button onClick={this.show}>click me-ES6</Button>
                 <Modal
                     visible={this.state.visible}
                     width={500}

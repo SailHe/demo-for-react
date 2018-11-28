@@ -38,12 +38,8 @@ const DefModalEs5 = createReactClass({
         };
     },
 
-    /* getState: () =>{
-        // this 指外部对象 (lambda函数对象内没有this)
-        return this.state;
-    }, */
-
     handleOk: () => {
+        // this 指外部对象 (lambda函数对象内没有this) ?
         this.setState({
             visible: false,
             content: this.state.content + 1,
@@ -52,6 +48,7 @@ const DefModalEs5 = createReactClass({
     },
 
     handleCancel: () => {
+        // debugger;
         this.setState({
             visible: false,
             content: this.state.content + 1,
@@ -68,7 +65,7 @@ const DefModalEs5 = createReactClass({
     render() {
         return (
             <div>
-                <Button onClick={this.show}>[click me]</Button>
+                <Button onClick={this.show}>click me-ES5</Button>
                 <Modal
                     visible={this.state.visible}
                     width={500}
