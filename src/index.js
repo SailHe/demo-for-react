@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 // import TicTacToe from './TicTacToe';
+import DefModalEs6 from './components/DefModalEs6'
+// import Welcome from './components/Welcome'
 import * as serviceWorker from './serviceWorker';
 
 /*
-// 入门教程 React HelloWorld
-// @see https://react.docschina.org/docs/components-and-props.html
-function Welcome(props) {
-    return <h1>Hello, {props.name}</h1>;
-}
 
 const WelcomeElement = <Welcome name="React World!" />;
 
@@ -20,8 +17,9 @@ ReactDOM.render(
 );
 */
 
-ReactDOM.render(<App />, document.getElementById('root'));
-// 可以在此处直接渲染 也可以在App内不渲染
+// ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<DefModalEs6 />, document.getElementById('root'));
+// 可以在此处直接渲染 也可以在App内渲染
 // ReactDOM.render(<TicTacToe />, document.getElementById("root"));
 
 

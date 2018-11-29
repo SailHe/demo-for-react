@@ -10,12 +10,15 @@ import {Modal, Button} from 'shineout'
  * @date 2018/11/28 21:21
  */
 class DefModalEs6 extends React.Component {
+
+    // 使用ES6 class语法创建组件，初始化state的工作要在constructor中完成。不需要再调用getInitialState方法。
     constructor(props) {
         super(props)
         this.state = {
             visible: false,
             content: 1,
         }
+        // 使用ES6 class语法创建组件， class中的方法不会自动将this绑定到实例中。必须使用 .bind(this)或者 箭头函数 ＝>来进行手动绑定。
         this.show = this.show.bind(this)
     }
 

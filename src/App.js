@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import DefModalEs6 from './modules/DefModalEs6'
-import DefModalEs5 from './modules/DefModalEs5'
-import TicTacToe from './modules/TicTacToe';
+import DefModalEs6 from './components/DefModalEs6'
+import DefModalEs5 from './components/DefModalEs5'
+import TicTacToe from './components/TicTacToe';
 
 class App extends Component {
   render() {
