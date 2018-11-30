@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 // import TicTacToe from './TicTacToe';
-import DefModalEs6 from './components/DefModalEs6'
+// import DefModalEs6 from './components/DefModalEs6'
 // import Welcome from './components/Welcome'
 import * as serviceWorker from './serviceWorker';
 
@@ -17,8 +17,8 @@ ReactDOM.render(
 );
 */
 
-// ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<DefModalEs6 />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<DefModalEs6 />, document.getElementById('root'));
 // 可以在此处直接渲染 也可以在App内渲染
 // ReactDOM.render(<TicTacToe />, document.getElementById("root"));
 

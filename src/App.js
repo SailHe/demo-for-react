@@ -4,6 +4,7 @@ import './App.css';
 import DefModalEs6 from './components/DefModalEs6'
 import DefModalEs5 from './components/DefModalEs5'
 import TicTacToe from './components/TicTacToe';
+import Onents from './components/Onents';
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
         <TicTacToe />
         <DefModalEs5 />
         <DefModalEs6 />
+        <Onents />
 
       </div>
     );
