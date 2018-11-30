@@ -30,7 +30,8 @@ const DefModalEs5 = createReactClass({
     getInitialState() {
         // http://eslint.cn/docs/rules/object-shorthand
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
-        this.show = this.show.bind(this);
+        // ES5 无需绑定
+        // this.show = this.show.bind(this);
         // debugger;
         return {
             visible: false,
